@@ -25,7 +25,9 @@ ${data.description}
 * [Questions](#questions)
 ## Installation
 To install necessary dependencies, run the following command:
+\`\`\`
 ${data.install}
+\`\`\`
 ## Usage
 ${data.usage}
 ## License
@@ -34,9 +36,11 @@ This project is licensed under the ${data.license} license.
 ${data.repo}
 ## Tests
 To run tests, run the following command:
+\`\`\`
 ${data.test}
+\`\`\`
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at ${data.Emailaddress}. You can find more of my work at [${data.Emailaddress}](https://github.com/${data.githubUsername}/).
+If you have any questions about the repo, open an issue or contact me directly at ${data.Emailaddress}. You can find more of my work at [${data.githubUsername}](https://github.com/${data.githubUsername}/).
 `;
 
 module.exports = generateMarkdown;
